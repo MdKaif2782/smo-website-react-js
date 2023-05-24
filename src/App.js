@@ -1,13 +1,14 @@
 import logo from './logo.svg';
+import pepe from './pepe.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={pepe} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <code>UI</code> er kaj choltese vai wait koren
         </p>
         <a
           className="App-link"
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React to help us :")
         </a>
       </header>
     </div>
