@@ -1,8 +1,24 @@
 import logo from './logo.svg';
 import pepe from './pepe.png'
 import './App.css';
+import {useEffect} from "react";
+import {db} from "./Firebase";
+import {doc,setDoc} from 'firebase/firestore'
 
 function App() {
+
+  useEffect(()=>{
+    console.log("firebase added (y)")
+
+    // Firebase add Test
+
+    // const cityRef = doc(db, 'cities', 'BJ');
+    // setDoc(cityRef, {capital: true}, {merge: true}).then(r =>{
+    //   console.log(r)
+    // });
+
+   },[])
+
   return (
     <div className="App">
       <header className="App-header">
